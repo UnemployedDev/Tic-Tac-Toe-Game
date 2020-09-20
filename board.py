@@ -48,9 +48,3 @@ class Board:
 
 	def draw_o(self, centerx, centery):
 		pygame.draw.circle(self.screen, self.settings.line_color, (centerx, centery), 70, 15)
-
-	def draw_x(self):
-		pass
-
-	def draw_o_x(self):
-		pass

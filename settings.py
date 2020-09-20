@@ -10,3 +10,5 @@ class Settings:
 		self.line_color = (0, 0, 0)
 		self.line_width = 10
 		self.border = 20
+
+		self.state = 'intro'
